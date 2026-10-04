@@ -73,6 +73,10 @@ Converts the outputs of Milestones 1 and 2 into concrete strategy using **direct
 
 Alongside this, a **Risk Mitigation** module provides, for each identified risk: Risk, Category, Impact, Priority, Mitigation Strategy, Preventive Action, and Contingency Action.
 
+### Milestone 4 – Final Integration & Deployment
+
+The final milestone brings the full system together: the database layer was migrated to SQLite for simpler local deployment, an Improvement Suggestions module (improvement_engine.py) was added, and the strategic reasoning pipeline was restructured using LangGraph to orchestrate the Gemini-based recommendation workflow end to end.
+
 ## Technology Stack
 
 **Python** — primary language for all backend logic and engines.
